@@ -32,13 +32,13 @@ Windows 上 Everything 之所以快，是因为它直接读 NTFS 的主文件表
 
 ## 安装
 
-到 [Releases](../../releases/latest) 下载，三选一：
+到 [Releases](https://github.com/tianfeng66/miaosou/releases/latest) 下载，三选一：
 
 | 文件 | 怎么用 |
 |---|---|
-| **秒搜-1.0.0.pkg** | 双击，按提示装进「应用程序」（推荐） |
-| **秒搜-1.0.0.dmg** | 打开后把秒搜拖到「应用程序」 |
-| **秒搜-1.0.0.zip** | 解压后得到 `秒搜.app` |
+| **miaosou-1.0.0.pkg** | 双击，按提示装进「应用程序」（推荐） |
+| **miaosou-1.0.0.dmg** | 打开后把秒搜拖到「应用程序」 |
+| **miaosou-1.0.0.zip** | 解压后得到 `秒搜.app` |
 
 第一次打开如果提示「无法验证开发者」：按住 **Control** 再点图标，选择「打开」。这是未使用 Apple 开发者账号公证时的正常情况。
 
