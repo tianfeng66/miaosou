@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="2">
+    <title>秒搜</title>
+    <organization>local.tian</organization>
+    <options customize="never" require-scripts="false" rootVolumeOnly="true"/>
+    <welcome file="welcome.html" mime-type="text/html"/>
+    <conclusion file="conclusion.html" mime-type="text/html"/>
+    <pkg-ref id="local.tian.miaosou"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="local.tian.miaosou"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="local.tian.miaosou" visible="false">
+        <pkg-ref id="local.tian.miaosou"/>
+    </choice>
+    <pkg-ref id="local.tian.miaosou" version="1.0.0" onConclusion="none">秒搜-component.pkg</pkg-ref>
+</installer-gui-script>

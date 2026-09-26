@@ -1,0 +1,7 @@
+#!/bin/bash
+DIR="$(cd "$(dirname "$0")" && pwd)"
+BIN="$DIR/秒搜.app/Contents/MacOS/Miaosou"
+if [[ ! -x "$BIN" ]]; then
+  /bin/bash "$DIR/build.sh"
+fi
+exec "$BIN" --search "$@"
